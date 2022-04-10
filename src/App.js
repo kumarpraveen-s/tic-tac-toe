@@ -76,6 +76,7 @@ const App = () => {
         setPlayer("❌");
       }
     });
+    // eslint-disable-next-line
   }, [board]);
 
   //render winner
